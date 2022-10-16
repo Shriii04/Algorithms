@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
     int a[4];
     int i, even = 0, odd = 0;
-    printf("Enter the elements of array:\n");
+    printf("Enter the elements of array:\n"); //Entering elements of array
     for (int i = 0; i < 4; i++)
     {
         scanf("%d", &a[i]);
