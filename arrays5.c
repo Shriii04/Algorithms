@@ -1,4 +1,4 @@
-// Write a C program to count total number of even and odd elements in an array.
+// Write a C program to count total number of even and odd elements in an array and find the difference between them.
 
 #include <stdio.h>
 int main(int argc, char const *argv[])
@@ -23,6 +23,7 @@ int main(int argc, char const *argv[])
     }
     printf("Number of Even Elements =%d\n", even);
     printf("Number of Odd Elements =%d\n", odd);
+    printf("Difference of even - odd = %d\n",even-odd);
 
     return 0;
 }
